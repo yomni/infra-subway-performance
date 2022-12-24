@@ -440,6 +440,7 @@ group by covid.stay
   2. member, programmer 의 적절한 index 추가
   ```mysql
   create index idx_age_member on member (age);
+  create index idx_name_hospital on hospital (name);
   create index idx_country_programmer on programmer (country);
   create index idx_member_id_programmer on programmer (member_id);
   ```
